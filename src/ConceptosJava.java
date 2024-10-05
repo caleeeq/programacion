@@ -71,6 +71,18 @@ public class ConceptosJava {
         System.out.println(m + " < " + n + " : " + (m < n));
         System.out.println(m + " >= " + n + " : " + (m >= n));
         System.out.println(m + " <= " + n + " : " + (m <= n));
+        System.out.println();
+
+        //Operadores Logicos
+        boolean bool1 = true;
+        boolean bool2 = false;
+
+        System.out.println("Operadores Logicos: "); //compuertas logicas
+        System.out.println(bool1 + " && " + bool2 + " : " + (bool1 && bool2)); //and
+        System.out.println(bool1 + " || " + bool2 + " : " + (bool1 || bool2)); //or
+        System.out.println("!" + bool1 + " : " + (!bool1)); //not
+        System.out.println("!" + bool2 + " : " + (!bool2)); //not
+        System.out.println();
 
     }
 }
