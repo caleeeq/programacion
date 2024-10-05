@@ -60,5 +60,17 @@ public class ConceptosJava {
         System.out.println("Decremento: " + b);
         System.out.println();
 
+        //Operaciones Relacionales
+        int m = 20;
+        int n = 18;
+
+        System.out.println("\nOperadores Relacionales: ");
+        System.out.println(m + " == " + n + " : " + (m == n));
+        System.out.println(m + " != " + n + " : " + (m != n));
+        System.out.println(m + " > " + n + " : " + (m > n));
+        System.out.println(m + " < " + n + " : " + (m < n));
+        System.out.println(m + " >= " + n + " : " + (m >= n));
+        System.out.println(m + " <= " + n + " : " + (m <= n));
+
     }
 }
