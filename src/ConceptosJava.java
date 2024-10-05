@@ -107,6 +107,12 @@ public class ConceptosJava {
             System.out.println("La cadena es demasiado corta para obtener caracter.");
         }
 
+        System.out.println("Reemplazar 'worst' por 'PEOR': " + ejemplo.replace("worst", "PEOR"));
 
+        String ca1 = "Calixtra";
+        String ca2 = "calixtra";
+        System.out.println("Comparacion de cadenas: ");
+        System.out.println("\"" + ca1 + "\"igual a" + ca2 + "\" ? : " + ca1.equals(ca2));
+        System.out.println("\"" + ca1 + "\"igual a" + ca2 + "\" Ignorando mayuscula? : " + ca1.equalsIgnoreCase(ca2));
     }
 }
