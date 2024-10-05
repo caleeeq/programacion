@@ -84,5 +84,29 @@ public class ConceptosJava {
         System.out.println("!" + bool2 + " : " + (!bool2)); //not
         System.out.println();
 
+        //Operaciones con Strigns
+        String saludo = "Marka";
+        String nombre = "Mitxianis";
+        String espacio = " ";
+
+        String mensaje = saludo + espacio + nombre;
+        System.out.println("\nConcatenacion de cadenas: ");
+        System.out.println(mensaje);
+
+        String ejemplo = "   UIP es la worst";
+        System.out.println("\n Operaciones con cadenas: ");
+        System.out.println("Cadena Original: \"" + ejemplo + "\"");
+        System.out.println("Longitud: " + ejemplo.length());
+        System.out.println("Mayusculas: " + ejemplo.toUpperCase());
+        System.out.println("Minusculas: " + ejemplo.toLowerCase());
+        System.out.println("Sin espacios: \"" + ejemplo.trim() + "\"");
+
+        if (ejemplo.length() > 5) {
+            System.out.println("Caracter en posicion 5: " +  ejemplo.charAt(5));
+        } else {
+            System.out.println("La cadena es demasiado corta para obtener caracter.");
+        }
+
+
     }
 }
